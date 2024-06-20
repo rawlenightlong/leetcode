@@ -31,6 +31,7 @@ function romanToInt(x){
     }
 
     let value = 0
+    console.log(romans)
     for (let i = 0; i < x.length; i++) {
         if (romans[x[i]] < romans[x[i + 1]]){
             value = value - romans[x[i]]
